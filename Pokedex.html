@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedex</title>
+    
+    <script
+      src="https://kit.fontawesome.com/7839e20bae.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./pokemon.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="slide" id="slide">
+      <div class="head-menu">
+        <h1>menu</h1>
+        <button class="cros-btn"><i class="fa-solid fa-xmark cross" id="cross"></i></button>
+      </div>
+      <ul class="hm">
+        <li>
+          <a href="#"><i class="fa-solid fa-tv"></i>dashboard</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-user"></i>profile</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-clipboard"></i>saved</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-solid fa-comment"></i>messages</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-file"></i>file manager</a>
+        </li>
+        <li>
+          <a href="#"><i class="fa-regular fa-address-book"></i>settings</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="headbox">
+      <i class="fa-solid fa-bars" id="come" ></i>
+      <img
+        src="https://assets.pokemon.com/assets/cms2/img/misc/gus/buttons/logo-pokemon-79x45.png"
+        alt=""
+        height="70px"
+      />
+      <img
+        src="https://www.freeiconspng.com/thumbs/pokeball-png/file-pokeball-png-0.png"
+        alt=""
+        height="60px"
+      />
+    </div>
+    <div class="main">
+      <div class="pokedex">
+        <img
+          src="https://www.pokemon.com/static-assets/content-assets/cms2/img/attend-events/_tiles/locator/store-locator-34.jpg"
+          alt=""
+          height="250px"
+          class="ball"
+        />
+        <h1 class="know">know the wild pokemon</h1>
+        <img
+          src="https://www.pixelstalk.net/wp-content/uploads/images6/Pokemon-Background-HD.jpg"
+          alt=""
+          height="280px"
+          class="maps"
+        />
+      </div>
+      <div class="api">
+        <div class="but">
+          <div class="dexred">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeNxqFMXLisda74i1bAJ5G_iG6fXZVYIBjTkGjUyLcB0SuKVDBZUd_kx_dOLjE3ycSVHo&usqp=CAU"
+              alt=""
+              class="buttons"
+            />
+            <img
+              src="https://static4.depositphotos.com/1010735/341/v/600/depositphotos_3417684-stock-illustration-glossy-button.jpg"
+              alt=""
+              class="buttons"
+            />
+          </div>
+          <div class="fight">
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/back/9.gif" class="blas"  >
+          <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/showdown/6.gif" alt="" class="char">
+          </div>
+          <img
+            src="https://raw.githubusercontent.com/sleduardo20/pokedex/0671af442dff1d8f7141e49eb83b438885bbc9e9/public/img/logo.svg"
+            alt=""
+            height="70px"
+            class="balls"
+          />
+        </div>
+        <div class="input">
+          <input
+            type="text"
+            name="pokemon"
+            placeholder="enter the pokemon"
+            id="inp"
+          />
+          <button id="get">
+            get info <i class="fa-solid fa-arrows-rotate" ></i>
+          </button>
+        </div>
+        <div class="info">
+          <div class="name">
+            <div class="details">
+              <ul class="ab">
+                <li id="name">NAME :</li>
+                 <li id="weight">weight :</li>
+                 <li id="height">height :</li>
+                 <li id="exp">Base Experince</li>
+                 <li id="imo"></li>
+                 </ul>
+                 </div>
+                 <br>
+                 <div class="ablities">
+                  <h3 class="ab_head"> ablities <img
+        src="https://www.freeiconspng.com/thumbs/pokeball-png/file-pokeball-png-0.png"
+        alt=""
+        height="30px" class="boll"
+      /></h3>
+          <ol id="abi" class="abo"></ol>
+            </div>
+          </div>
+          <div class="pic">
+            <h2 id="sno">id no</h2>
+            <div id="pic-con"><img src="https://d2h3d42vkj4fuu.cloudfront.net/dd10c2f3f212c01bd3125e21d7cac184" alt="" id="imge"></div>
+            <div class="load-gif" id="gif"></div>
+             <div id="nime">
+            <h2 id="main-name">GOTTA CATCH EM ALL</h2>
+            </div>
+          </div>
+        </div>
+
+        </div>
+        <div class="three">
+          <img src="https://img.lemde.fr/2022/12/22/5/0/1730/865/1440/720/60/0/e968e4d_1671703423578-b5e.jpeg" alt="" class="blackbar">
+          <div class="back">
+            <h2 id="view2">combact view </h2>
+            <img src="" alt="" id="front_def">
+            <br>
+            <h2 id="view">back view</h2>
+            <img src="" alt="" id="back_def">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./p_dex.js"></script>
+  </body>
+</html>
